@@ -36,6 +36,8 @@ body:
         - label: 侧栏
         - label: 底部（只选此项一般无法通过审核）
         - label: 其它
+    validations:
+      required: true
   - type: dropdown 
     id: content
     attributes:
